@@ -11,8 +11,8 @@ $(document).on("click", "#scrapeButton", () => {
   
   $(document).on("click", "#clearArticles", () => {
     $("#articles").empty();
-    $("#articles").append("<h3>Press the scrape button to get new articles.</h3>")
-    $("#articles").append("<h3>Click Load Articles to get previously scrapped articles.</h3>");
+    $("#articles").append("<h5>Click the Scrape button to retrieve new articles. </h5>")
+    $("#articles").append("<h5>Click the Load Articles button to retrieve previously scraped articles.</h5>");
   });
   
   $(document).on("click", "#loadButton", () => {
