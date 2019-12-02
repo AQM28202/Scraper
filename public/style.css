@@ -1,0 +1,28 @@
+body { 
+    background-color: #e0e0e0
+}
+
+.brand-logo {
+    margin-left: 20px;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+a {
+    color: #00796b;
+}
+
+.card-content {
+    font-size: 18px;
+}
+
+#addNote, #seeNote {
+    margin-right: 20px;
+}
+
+#notes {
+    float: right;
+    width: 30%;
+}
